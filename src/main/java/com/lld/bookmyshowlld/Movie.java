@@ -2,12 +2,12 @@ package com.lld.bookmyshowlld;
 
 public class Movie {
     Integer id;
-    String movie;
+    String movieName;
     Integer movieDurationInMinutes;
 
-    public Movie(Integer id, String movie, Integer movieDurationInMinutes) {
+    public Movie(Integer id, String movieName, Integer movieDurationInMinutes) {
         this.id = id;
-        this.movie = movie;
+        this.movieName = movieName;
         this.movieDurationInMinutes = movieDurationInMinutes;
     }
 
@@ -19,12 +19,12 @@ public class Movie {
         this.id = id;
     }
 
-    public String getMovie() {
-        return movie;
+    public String getMovieName() {
+        return movieName;
     }
 
-    public void setMovie(String movie) {
-        this.movie = movie;
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
     }
 
     public Integer getMovieDurationInMinutes() {

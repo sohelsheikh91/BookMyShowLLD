@@ -8,5 +8,4 @@ public class Show {
     Screen screen;
     int startTime;
     List<Seats> bookedSeatsId;
-
 }

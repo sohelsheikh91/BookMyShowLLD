@@ -5,5 +5,4 @@ public class Seats {
     int row;
     int price;
     SeatsCategory seatsCategory;
-
 }
